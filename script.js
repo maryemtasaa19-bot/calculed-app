@@ -136,3 +136,4 @@ function calculate() {
   const finalAvg = (total / count).toFixed(2);
   document.getElementById("result").innerText = "المعدل: " + finalAvg;
 }
+
