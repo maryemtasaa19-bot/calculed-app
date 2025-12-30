@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+select, input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+select, input {
+  background: #1e293b;
+  color: white;
+}
+
+.subject {
+  background: #1e293b;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+
+button {
+  background: #22c55e;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 15px;
+  background: #16a34a;
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}

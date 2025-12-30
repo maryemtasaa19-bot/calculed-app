@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>حاسبة المعدل الإعدادي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+  <h1>📘 حاسبة المعدل</h1>
+
+  <select id="level">
+    <option value="">المستوى</option>
+    <option value="1">الأولى إعدادي</option>
+    <option value="2">الثانية إعدادي</option>
+    <option value="3">الثالثة إعدادي</option>
+  </select>
+
+  <select id="term">
+    <option value="">الدورة</option>
+    <option value="1">الدورة الأولى</option>
+    <option value="2">الدورة الثانية</option>
+  </select>
+
+  <select id="examType" class="hidden">
+    <option value="cc">المراقبة المستمرة</option>
+    <option value="local">الامتحان المحلي</option>
+    <option value="regional">الامتحان الجهوي</option>
+  </select>
+
+  <div id="subjects"></div>
+
+  <button id="calc">احسب</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
